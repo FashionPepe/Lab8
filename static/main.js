@@ -184,7 +184,7 @@ function selectSuggestion(suggestion) {
 searchInput.addEventListener('input', function () {
     const query = searchInput.value.trim();
     if (query.length > 0) {
-        fetchAutocompleteSuggestions(query);
+        fetchAutocompleteSuggestions(que2ry);
     } else {
         suggestionsContainer.style.display = 'none';
     }
